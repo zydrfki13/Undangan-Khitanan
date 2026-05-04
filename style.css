@@ -1,0 +1,95 @@
+body {
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+  background: #0f2e2e;
+  color: white;
+  text-align:center;
+}
+
+.cover {
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  background: linear-gradient(#0f2e2e, #1f5c5c);
+}
+
+button {
+  padding:12px 25px;
+  background: gold;
+  border:none;
+  cursor:pointer;
+}
+
+section {
+  padding:50px 20px;
+}
+
+.nama {
+  font-family: 'Playfair Display', serif;
+  font-size:40px;
+  color: gold;
+}
+
+.gallery img {
+  width:120px;
+  margin:5px;
+  border-radius:10px;
+}
+
+iframe {
+  width:90%;
+  height:250px;
+  border-radius:10px;
+}
+
+/* ANIMASI */
+.fade {
+  opacity:0;
+  transform:translateY(30px);
+  transition:1s;
+}
+
+.fade.show {
+  opacity:1;
+  transform:translateY(0);
+}
+
+.nama-tamu {
+  color: gold;
+  font-size: 22px;
+}
+
+/* ORNAMEN ISLAMI */
+.ornamen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.bulan {
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
+  background: gold;
+  border-radius: 50%;
+  box-shadow: -20px 0 0 0 #0f2e2e;
+}
+
+.bintang {
+  position: absolute;
+  top: 120px;
+  right: 100px;
+  width: 10px;
+  height: 10px;
+  background: gold;
+  border-radius: 50%;
+  box-shadow:
+    20px 20px gold,
+    -30px 40px gold,
+    40px 60px gold;
+}
