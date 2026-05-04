@@ -93,3 +93,21 @@ iframe {
     -30px 40px gold,
     40px 60px gold;
 }
+
+.qris {
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 15px;
+}
+
+.qris-box {
+  background: white;
+  padding: 15px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 350px;
+  margin: auto;
+}
